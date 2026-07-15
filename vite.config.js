@@ -7,14 +7,18 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.jsx'),
-      name: 'KioskMission',
+      name: 'KioskCode',
       formats: ['es', 'cjs'],
       fileName: (format) => `index.${format === 'es' ? 'esm' : 'cjs'}.js`,
     },
     rollupOptions: {
-      external: ['react', 'react-dom'],
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
       output: {
-        globals: { react: 'React' },
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+          'react/jsx-runtime': 'ReactJSXRuntime',
+        },
         exports: 'named',
       },
     },

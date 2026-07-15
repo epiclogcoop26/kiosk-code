@@ -1,18 +1,14 @@
 {
   "name": "@epiclog/kiosk-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "키오스크 미션 코드 발급 React 컴포넌트",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.jsx",
+  "module": "src/index.jsx",
   "exports": {
-    ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.cjs.js"
-    },
-    "./dist/style.css": "./dist/style.css"
+    ".": "./src/index.jsx",
+    "./dist/style.css": "./src/popup.css"
   },
-  "files": ["dist"],
+  "files": ["src"],
   "scripts": {
     "build": "vite build",
     "dev": "vite build --watch"
