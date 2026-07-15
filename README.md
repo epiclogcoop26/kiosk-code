@@ -1,4 +1,4 @@
-# @epiclog/kiosk-mission
+# @epiclog/kiosk-code
 
 키오스크 미션 연동 React 컴포넌트.  
 버튼 하나로 코드 팝업을 띄우고, 사용자별 데이터를 키오스크와 연동합니다.
@@ -6,13 +6,13 @@
 ## 설치
 
 ```bash
-npm install @epiclog/kiosk-mission
+npm install @epiclog/kiosk-code
 ```
 
 ## 사용법
 
 ```jsx
-import { KioskMission } from '@epiclog/kiosk-mission';
+import { KioskMission } from '@epiclog/kiosk-code';
 
 function GameScreen({ currentPlayer }) {
   return (
