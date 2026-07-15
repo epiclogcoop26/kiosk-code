@@ -1,6 +1,6 @@
 {
   "name": "@epiclog/kiosk-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "키오스크 미션 코드 발급 React 컴포넌트",
   "main": "src/index.jsx",
   "module": "src/index.jsx",
@@ -8,7 +8,9 @@
     ".": "./src/index.jsx",
     "./dist/style.css": "./src/popup.css"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "build": "vite build",
     "dev": "vite build --watch"
@@ -21,6 +23,11 @@
     "@vitejs/plugin-react": "^4.0.0",
     "vite": "^5.0.0"
   },
-  "keywords": ["kiosk", "mission", "epiclog", "react"],
+  "keywords": [
+    "kiosk",
+    "mission",
+    "epiclog",
+    "react"
+  ],
   "license": "MIT"
 }
