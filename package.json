@@ -29,5 +29,8 @@
     "epiclog",
     "react"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@epiclog/kiosk-code": "^1.0.5"
+  }
 }
