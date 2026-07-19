@@ -17,3 +17,7 @@
 .km-btn-close{background:transparent;color:#9ca3af;border:1px solid #e5e7eb}
 .km-trigger-btn{padding:12px 24px;border-radius:12px;background:#6366f1;color:#fff;font-size:15px;font-weight:700;border:none;cursor:pointer}
 .km-trigger-btn:disabled{opacity:.6;cursor:not-allowed}
+
+.km-btn-check{background:#3f9b72;color:#fff}
+.km-btn-check:hover{background:#2f7d5b}
+.km-btn-check:disabled{opacity:.6;cursor:not-allowed}
