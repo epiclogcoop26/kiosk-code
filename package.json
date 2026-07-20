@@ -1,6 +1,6 @@
 {
   "name": "@epiclog/kiosk-code",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "키오스크 미션 코드 발급 React 컴포넌트",
   "main": "src/index.jsx",
   "module": "src/index.jsx",
